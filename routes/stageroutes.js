@@ -1,4 +1,5 @@
 const express = require("express");
+const router=express.Router();
 
 const {
   createStage,
@@ -6,9 +7,9 @@ const {
   getSingleStage,
   updateStage,
   deleteStage,
-} = require("../controllers/stageController");
+} = require("../controllers/stagecontroller");
 
-const router = express.Router();
+//const router = express.Router();
 
 
 router.post("/create", createStage);
