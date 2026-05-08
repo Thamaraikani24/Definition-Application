@@ -9,7 +9,7 @@ const {
   deleteStage,
 } = require("../controllers/stagecontroller");
 
-//const router = express.Router();
+
 
 
 router.post("/create", createStage);
